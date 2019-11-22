@@ -1,2 +1,2 @@
-# pipo
+# pipo.github.io
 My hosting
