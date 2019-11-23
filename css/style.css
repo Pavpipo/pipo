@@ -4,32 +4,57 @@ body {
 	margin: 0;
 }
 
+.grid {
+	display: grid;
+	grid-template-columns: 80% 20%;
+	grid-column-gap: auto;
+
+}
+
+./*clearfix: after {
+	content: '.';
+	display: table;
+	width: 100%;
+	clear: both;
+	display: inline-block;
+}
+
+/*.clearfix {
+	display: inline-block;
+}*/
+
 div {
 	box-sizing: border-box;
+	border: 5px;
+	color: red;
 }
 
 header {
 	background: url(../img/coffee.jpg) no-repeat center top / cover;
 	height: 600px;
-
 }
 
-.line {
+/*.line {
 	min-width: 100%;
-	min-height: 100px;
+	min-height: 85px;
 	background-color: rgba(5, 5, 5, 0.25);
 }
+*/
 
 .container-header {
 	width: 1250px;
 	margin: 0 auto;
-	border: 10 px solid red;
+	}
+
+nav {
+	/*float: left;*/
+	margin-top: 33px;
 }
 
 .tossing{	
-	float: right;
+	/*float: right;*/
 	width: 150px;
-	margin-top: 12px;
+	margin-top: 7px;
 	animation-name: tossing;
 	-webkit-animation-name: tossing;	
 
@@ -76,10 +101,6 @@ header {
 	}			
 }
 
-nav {
-	float: left;
-	margin-top: 40px;
-}
 
 .menu {
 	padding: 0;
@@ -97,5 +118,18 @@ nav {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 14px;
+}
 
+.titles-first {
+	font-size: 25px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h1 {
+	font-size: 65px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
 }
