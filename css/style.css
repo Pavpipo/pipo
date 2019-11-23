@@ -121,14 +121,15 @@ nav {
 }
 
 .titles-first {
-	font-size: 25px;
+	font-size: 30px;
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
+	margin-top: 160px;
 }
 
 h1 {
-	font-size: 65px;
+	font-size: 70px;
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
