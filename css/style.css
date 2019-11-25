@@ -92,18 +92,6 @@ nav {
 	}				
 }
 
-@-webkit-keyframes floating {
-	0% {
-		-webkit-transform: translateY(0%);	
-	}
-	50% {
-		-webkit-transform: translateY(8%);	
-	}	
-	100% {
-		-webkit-transform: translateY(0%);
-	}			
-}
-
 .hr-line {
 	background-image: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.2), transparent);
 	border: 0;
@@ -111,7 +99,8 @@ nav {
 	margin: 33px 0 33px 0;
 	box-sizing:	content-box;
 	display: block;
-	margin-bottom: 50px;
+	margin-bottom: 70px;
+	margin-top: 50px;
 }
 
 .menu {
@@ -137,7 +126,7 @@ nav {
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
-	margin-top: 150px;
+	margin-top: 190px;
 }
 
 h1 {
@@ -188,10 +177,9 @@ h1 {
 .grid1 {
 	display: grid;
 	grid-template-columns: 1fr 1fr auto;
-	grid-column-gap: 15px;
+	grid-column-gap: 25px;
 }
 
-#text1 p {
-	text-indent: 5%;
-	margin-bottom: 0,5em;
+#text1 br {
+	
 }
