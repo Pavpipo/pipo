@@ -227,8 +227,8 @@ h1 {
 }
 
 .header2 {
-	height: 200px;
-	width: 500px;
+	max-height: 200px;
+	max-width: auto;
 	overflow: hidden;
 }
 
