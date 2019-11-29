@@ -164,6 +164,27 @@ h1 {
 	/*transition: background-color .2s ease;*/
 }
 
+.button2 {
+	background: #ffb703;
+	color: #454545;
+	border-radius: 4px;
+	display: block;
+	width: 140px;
+	padding: 15px 0;
+	margin: 0 auto;
+	margin-top: 60px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.act a:hover {
+	color: #fff;
+    background: #fdd275;
+ }
+
 .list2 {
 	width: 1200px;
 	margin: 0 auto;
@@ -192,7 +213,7 @@ h1 {
 }
 
 .p2 p {
-	font-size: 19px;
+	font-size: 17px;
 	color: #fff;
 }
 
@@ -223,7 +244,7 @@ h1 {
 
 }
 
-.txt h3{
+.p1 h3{
 	font-size: 20px;
 }
 
@@ -244,10 +265,6 @@ h1 {
 }
 
 
-.img6 {
-		
-}
-
 /*.grid2 {
 	display: grid;
 }*/
@@ -257,14 +274,29 @@ h1 {
 	margin-top: 60px;
 	position: relative;
 	color: #fff;
+	/*width: auto;
+	height: auto;*/
 }
 
 .list3 h4 {
-	font-size: 16px;
+	font-size: 17px;
 	color: #ffb703;
 }
 
 .list3 p {
-	font-size: 15px;
+	font-size: 16px;
+}
 
+.flex2 {
+	display: flex;
+
+}
+
+.v1 {
+	flex: 1;
+}
+
+.v2 {
+	flex: 1;
+	margin-left: 40px;
 }
