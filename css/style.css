@@ -64,9 +64,13 @@ nav {
 	margin-top: 25px;
 }
 
+.color-text {
+	color: #ffb703;
+}
+
 .tossing{	
 	/*float: right;*/
-	width: 130px;
+	width: 150px;
 	margin-top: 3px;
 	animation-name: tossing;
 	-webkit-animation-name: tossing;	
@@ -171,8 +175,8 @@ h1 {
 	display: block;
 	width: 140px;
 	padding: 15px 0;
-	margin: 0 auto;
-	margin-top: 60px;
+	margin: 30px 20px auto 0;
+	
 	text-decoration: none;
 	text-align: center;
 	text-transform: uppercase;
@@ -190,16 +194,21 @@ h1 {
 	margin: 0 auto;
 }
 
+.p1{
+	margin-top: 60px;
+	text-align: center;
+}
 
-.title h2 {
-	font-size: 27px;
+.p1 h2 {
+	font-size: 25px;
 	font-weight: bold;
-	text-align: left;
 	text-transform: uppercase;
 }
 
-.p1{
-	margin-top: 60px;
+.p1 h4 {
+	font-size: 17px;
+	/*color: #ffb703;*/
+	padding-bottom: 35px;
 }
 
 .p2 {
@@ -225,7 +234,7 @@ h1 {
 
 .grid1 {
 	display: grid;
-	grid-template-columns: 440px 700px;
+	grid-template-columns: 450px 700px;
 	grid-gap: 30px;
 }
 
@@ -236,16 +245,12 @@ h1 {
 	max-width: 100%;
 	overflow: hidden;
 	text-align: center;
+	
 }
+
 
 .txt {
-	/*padding: 15px 0 10px 50px;*/
 	font-family: "SST W01 Roman","Helvetica Neue",Helvetica,Arial,sans-serif;
-
-}
-
-.p1 h3{
-	font-size: 20px;
 }
 
 .txt3 {
