@@ -388,8 +388,8 @@ h1 {
 
 .portfolio div:hover {
 	color: #ffb703;
-	background-color: #434343;
-	opacity: 1;
+/*background-color: #434343;*/
+	opacity: .75;
 }
 
 .item span {
@@ -404,6 +404,6 @@ h1 {
 	right: 0;
 	bottom: 0;
 	background-color: #434343;
-	opacity: .65;
+	opacity: .45;
 	transition: opacity .5s ease;
 }
