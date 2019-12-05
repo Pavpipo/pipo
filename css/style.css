@@ -1,28 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Raleway:500&display=swap');
 body {
-	font-family: "SST W01 Roman","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: 'Raleway', 'Open Sans', sans-serif;
 	padding: 0;
 	margin: 0;
 }
-
+/*
 .grid {
 	display: grid;
 	grid-template-columns: 80% 20%;
 	grid-column-gap: auto;
-	
-
 }
-
-./*clearfix: after {
-	content: '.';
-	display: table;
-	width: 100%;
-	clear: both;
-	display: inline-block;
-}
-
-/*.clearfix {
-	display: inline-block;
-}*/
+*/
 
 div {
 	box-sizing: border-box;
@@ -38,13 +27,7 @@ div {
 	height: 100vh;
 }
 
-/*.line {
-	min-width: 100%;
-	min-height: 85px;
-	background-color: rgba(5, 5, 5, 0.25);
-}
-*/
-
+/*
 .top {
 
 	background: left top / cover;
@@ -53,16 +36,13 @@ div {
 	height: 70px;
 	margin: 0 auto;
 }
+*/
 
 .heading {
 	width: 900px;
 	margin: 0 auto;
 	}
 
-nav {
-	/*float: left;*/
-	margin-top: 25px;
-}
 
 .txt-color {
 	color: #ffb703;
@@ -70,8 +50,9 @@ nav {
 
 .tossing{	
 	/*float: right;*/
-	width: 150px;
-	margin-top: 3px;
+	width: 120px;
+	margin-left: auto;
+	margin-right: 10vh;
 	animation-name: tossing;
 	-webkit-animation-name: tossing;	
 
@@ -117,22 +98,40 @@ nav {
 	margin-top: 50px;
 }
 
+.flex-top {
+	display: flex;
+	
+	text-align: center;
+	align-content: center;
+	background: #1a1a1a;
+
+}
+
+/*
 .menu {
 	padding: 0;
 	margin: 0;
 	display: block;
 }
-
+/*
 .menu li {
 	float: left;
 	display: block;
 	margin-right: 41px;
 }
-.menu li a {
+*/
+.menu a {
 	color: #fff;	
 	text-decoration: none;
-	font-family: "SST W01 Roman","Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 16px;
+	justify-content: center;
+	padding:20px 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+
+.menu a:hover {
+	background: #3a3a3a;
+	color: #ffb703;
 }
 
 .titles-first {
@@ -286,11 +285,11 @@ h1 {
 
 .list3 h4 {
 	font-size: 18px;
-	color: #ffb703;
+	color: #d99b00;
 }
 
 .list3 p {
-	font-size: 16px;
+	font-size: 15px;
 }
 
 /*.flex2 {
@@ -340,7 +339,6 @@ h1 {
 }
 
 .geography {
-	background: #d7d7d7;
 	padding-top: 40px;
 	width: 100%;
 	height: 100%;
@@ -437,16 +435,19 @@ h1 {
 
 .foot-end {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-around;
 	vertical-align: middle;
-	align-items: center;
-	
-	
+	align-items: center;	
 	color: #c1c1c1;
 	width: 100%;
 	height: 110px;
 	background-color: #212121;
 
+}
+
+.logo-foot {
+	width: 200px;
+	height: 60px;
 }
 
 .foot2 {
