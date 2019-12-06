@@ -98,9 +98,12 @@ div {
 	margin-top: 50px;
 }
 
+#m1 {
+	margin-left: 10vh;
+}
+
 .flex-top {
 	display: flex;
-	
 	text-align: center;
 	align-content: center;
 	background: #1a1a1a;
