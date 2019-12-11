@@ -38,6 +38,10 @@ div {
 }
 */
 
+.flexible-image {
+	max-width: 100%;
+}
+
 .heading {
 	width: 900px;
 	margin: 0 auto;
